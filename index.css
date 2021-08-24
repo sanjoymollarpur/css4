@@ -1,0 +1,141 @@
+.container{
+    
+   border: 2px solid red;
+   margin: auto;
+  
+   margin-bottom: 20px;
+}
+.nav-con{
+   
+   background-image: linear-gradient(to right,red, green, yellow);
+}
+.nav-tet{
+    text-decoration: underline;
+    text-align: center;
+
+}
+.menu{
+    display: flex;
+    margin: auto;
+    margin-left: 29%;
+}
+.menu-all{
+    
+    margin: 0;
+}
+.menu-tet{
+    width: 400px;
+    height: 55px;
+    border: 2px solid red;
+    border-radius: 7px;
+    background-color: greenyellow;
+}
+.p-tet{
+    text-align: center;
+    margin: 0;
+}
+.m-con{
+    
+    
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background-color: rgb(123, 166, 206);
+    border: 2px solid green;
+    margin-top: 20px;
+    
+}
+.m-tet{
+    width: 350px;
+    height: 70px;
+   margin: 10px;
+   padding: 12px;
+   align-items: center;
+   justify-content: center;
+    background-color: hotpink;
+    border: 2px solid green;
+}
+.m-tet1{
+    width: 300px;
+    height: 70px;
+    border: 0;
+    background-color:rgb(123, 166, 206);
+}
+.t1{
+    margin: 10px;
+    background-image: radial-gradient(yellow,red);
+}
+
+.container2{
+    display: flex;
+    background-image:radial-gradient( rgb(91, 214, 91), rgb(0, 173, 66));
+    justify-content: space-around;
+}
+.card{
+    border: 2px solid red;
+    background-color:yellow;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card-tet{
+    text-align: center;
+}
+.c1{
+    text-decoration: underline red;
+}
+
+.last-g{
+    display:grid;
+    margin-top: 30px;
+grid-template-rows: 60 px 100 px 200 px 60 px;
+grid-template-columns: repeat(3,1fr) 100 px;
+grid-gap:20px;
+
+}
+.g-1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: red;
+    text-align: center;
+    color: lavender;
+    padding: 10px;
+}
+.g-2{
+   background-color: lawngreen;
+   
+}
+.g-3{
+    background-color: rgb(33, 0, 71);
+   
+}
+.g-4{
+    background-color: rgb(43, 87, 0);
+   
+}
+.g{
+    width: 400px;
+    height: 120px;
+}
+.g-5 {
+    color: lightgray;
+    background-color:black;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.g-6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(85, 45, 45);
+}
+.ht{
+    margin: 0;
+}
+.gg{
+    height: 10px;
+    color: black;
+    background-color: rgb(0, 60, 95);
+}
